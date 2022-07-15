@@ -11,8 +11,8 @@ namespace JenkinsApp
             Console.WriteLine("Welcome to Jenkins");
             Console.WriteLine("First use of Jenkins!");
             MyMaths m = new MyMaths();
-            m.add(50, 50);
-            m.multiply(7, 3);
+            Console.WriteLine(m.add(50, 50));
+            Console.WriteLine(m.multiply(7, 3));
             Console.ReadLine();
         }
     }
